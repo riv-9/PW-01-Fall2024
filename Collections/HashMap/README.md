@@ -33,17 +33,17 @@ This example demonstrates how to use the **HashMap** in Java to create a simple 
 ```java
 String bobNumber = phonebook.get("Bob");
 ```
-Checking for Keys
+### Checking for Keys
 ```java
 boolean hasAlice = phonebook.containsKey("Alice");
 ```
-Using Streams
-Streaming Keys
+### Using Streams
+#### Streaming Keys
 ```java
 phonebook.keySet().stream()
         .forEach(key -> System.out.println("Key: " + key));
 ```
-Filtering Entries
+#### Filtering Entries
 ```java
 phonebook.entrySet().stream()
         .filter(entry -> entry.getKey().startsWith("A"))
