@@ -29,15 +29,21 @@ This example demonstrates how to use the **HashMap** in Java to create a simple 
   phonebook.put("Alice", "123-456-7890");
   phonebook.put("Bob", "987-654-3210");
 
- values:
+### Values
+```java
 String bobNumber = phonebook.get("Bob");
-Checking for keys:
+
+### Checking for Keys
+```java
 boolean hasAlice = phonebook.containsKey("Alice");
-Using Streams
-Streaming keys:
+
+###Using Streams
+####STreaming Keys
+```java
 phonebook.keySet().stream()
         .forEach(key -> System.out.println("Key: " + key));
-Filtering entries:
+####Filtering Entries
+```java
 phonebook.entrySet().stream()
         .filter(entry -> entry.getKey().startsWith("A"))
         .forEach(entry -> System.out.println("Filtered Entry: " + entry.getKey() + " - " + entry.getValue()));
