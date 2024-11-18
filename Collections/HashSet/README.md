@@ -28,8 +28,7 @@ This example demonstrates the usage of the **HashSet** collection in Java to sto
 
    
 2. **Removing Elements** (`remove(element)`):
-```
    - Removes a specific element from the HashSet.
    ```java
-grocerySet.remove("Carrots");
- ```
+   grocerySet.remove("Carrots");
+    ```
