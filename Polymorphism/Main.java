@@ -1,24 +1,27 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+// Main class to demonstrate polymorphism and object interaction
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-    Cat c1 = new Cat();
-    Animal a1 = new Animal("general");
-    Dog d1 = new Dog();
-    Dog d2 = new Dog();
 
-    a1.getType();
-    c1.getType();
+        // Create instances of Cat, Animal, and Dog
+        Cat c1 = new Cat();
+        Animal a1 = new Animal("general");
+        Dog d1 = new Dog();
+        Dog d2 = new Dog();
 
-    Animal c2 = new Cat();
-    c2.getType();
+        // Demonstrate method calls and polymorphic behavior
+        a1.getType(); // Prints the type of the general Animal
+        c1.getType(); // Prints the type of the Cat
 
-        System.out.println(Animal.totalAnimalCount);
-        System.out.println(Cat.totalAnimalCount);
-        System.out.println(Cat.KINGDOM);
-        System.out.println(Dog.count);
-        d1.eat();
+        Animal c2 = new Cat(); // Polymorphism: Cat object referenced as an Animal
+        c2.getType(); // Prints "Cat" (runtime polymorphism)
+
+        // Print statistics about the Animal class and subclasses
+        System.out.println(Animal.totalAnimalCount); // Total number of animals created
+        System.out.println(Cat.count); // Number of Cat instances
+        System.out.println(Cat.KINGDOM); // Biological kingdom constant
+        System.out.println(Dog.count); // Number of Dog instances
+
+        // Demonstrate overridden methods
+        d1.eat(); // Dog's implementation of the eat method
     }
 }
