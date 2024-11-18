@@ -24,9 +24,12 @@ This example demonstrates the usage of the **HashSet** collection in Java to sto
    ```java
    grocerySet.add("Apples");
    grocerySet.add("Apples"); // Duplicate, ignored
+   ### Operations Demonstrated in the Example
+
+   
+2. **Removing Elements** (`remove(element)`):
 ```
-**Adding Elements** (`contains(element)`):
-   - Checks if an element is present in the HashSet.
+   - Removes a specific element from the HashSet.
    ```java
-boolean hasBananas = grocerySet.contains("Bananas");
+grocerySet.remove("Carrots");
  ```
