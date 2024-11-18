@@ -26,7 +26,7 @@ This example demonstrates the usage of the **HashSet** collection in Java to sto
    grocerySet.add("Apples"); // Duplicate, ignored
 ```
 2. **Adding Elements** (`contains(element)`):
-Checks if an element is present in the HashSet.
+   - Checks if an element is present in the HashSet.
    ```java
 boolean hasBananas = grocerySet.contains("Bananas");
  ```
