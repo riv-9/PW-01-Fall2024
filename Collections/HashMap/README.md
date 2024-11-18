@@ -38,12 +38,12 @@ String bobNumber = phonebook.get("Bob");
 boolean hasAlice = phonebook.containsKey("Alice");
 ```
 ### Using Streams
-#### Streaming Keys
+#### 1.Streaming Keys
 ```java
 phonebook.keySet().stream()
         .forEach(key -> System.out.println("Key: " + key));
 ```
-#### Filtering Entries
+#### 2.Filtering Entries
 ```java
 phonebook.entrySet().stream()
         .filter(entry -> entry.getKey().startsWith("A"))
