@@ -18,8 +18,8 @@ This repository demonstrates three types of 2D arrays in Java:
   - Modifying specific elements in the array.
 - **Sample Output**:
 ```
-  Element at [1][2]: 7 All elements of the 2D array: 1 2 3 4 5 6 7 8 9 10 11 12
-  Modified 2D array: 1 2 3 4 5 99 7 8 9 10 11 12
+Element at [1][2]: 7 All elements of the 2D array: 1 2 3 4 5 6 7 8 9 10 11 12
+Modified 2D array: 1 2 3 4 5 99 7 8 9 10 11 12
 ```
 
 
@@ -30,7 +30,7 @@ This repository demonstrates three types of 2D arrays in Java:
 - Printing elements of the jagged array using nested loops.
 - **Sample Output**:
 ```
-  All elements of the jagged 2D array: 1 2 3 4 5 6 7 8 9
+All elements of the jagged 2D array: 1 2 3 4 5 6 7 8 9
 ```
 
 
