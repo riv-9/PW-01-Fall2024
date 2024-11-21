@@ -6,7 +6,7 @@ This folder contains Java files that demonstrate **Inheritance**, a core concept
 
 ## **Contents**
 
-### 1. `prac.java`
+### 1. `InheritanceExample.java`
 - Demonstrates how **inheritance** is used to create a hierarchy of related classes.
 - Explores how:
   - **Abstract classes** define common behaviors and attributes for subclasses.
