@@ -42,5 +42,4 @@ This folder contains examples and exercises related to polymorphism, including:
   - The `Animal` class implements the `AnimalBehavior` interface to enforce common behaviors across all animals.
 
 ## Notes
-- The `Polymorphism.java` file isn't included as its functionality overlaps with `Main.java`.
 - This exercise showcases practical usage of Java's object-oriented programming features.
