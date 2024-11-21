@@ -36,6 +36,7 @@ public class ArrayListConversionExample {
         }
     }
 }
+
 /*
 Output:
 Immutable List: [Apple, Banana, Cherry, Date]
