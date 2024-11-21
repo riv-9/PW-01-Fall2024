@@ -26,8 +26,8 @@ Modified 2D array: 1 2 3 4 5 99 7 8 9 10 11 12
 ### 2. `JaggedArrayExample.java`
 - Demonstrates the use of jagged arrays (arrays with rows of varying lengths).
 - **Features**:
-- Declaring and initializing a jagged 2D array.
-- Printing elements of the jagged array using nested loops.
+  - Declaring and initializing a jagged 2D array.
+  - Printing elements of the jagged array using nested loops.
 - **Sample Output**:
 ```
 All elements of the jagged 2D array: 1 2 3 4 5 6 7 8 9
@@ -37,9 +37,9 @@ All elements of the jagged 2D array: 1 2 3 4 5 6 7 8 9
 ### 3. `MixedTypes2DArray.java`
 - Demonstrates a 2D array storing mixed types using `Object[][]`.
 - **Features**:
-- Declaring and initializing a 2D array with mixed data types (Integer, String, Double).
-- Accessing and printing elements of the array.
-- Printing specific elements by their indices.
+  - Declaring and initializing a 2D array with mixed data types (Integer, String, Double).
+  - Accessing and printing elements of the array.
+  - Printing specific elements by their indices.
 - **Sample Output**:
 ```
 All elements of the 2D array with mixed types: 1 Hello 3.14 Java 42 9.99 100 World 3.14159
