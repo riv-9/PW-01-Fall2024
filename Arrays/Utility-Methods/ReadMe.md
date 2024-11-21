@@ -25,16 +25,15 @@ This program demonstrates three key methods from the `java.util.Arrays` class:
   ```java
   int[] arrayToFill = new int[5];
   Arrays.fill(arrayToFill, 10);
-System.out.println(Arrays.toString(arrayToFill)); // Output: [10, 10, 10, 10, 10]
+  System.out.println(Arrays.toString(arrayToFill)); // Output: [10, 10, 10, 10, 10]
   ```
   
-### 1. **Binary Search**
-- **Method**: `Arrays.binarySearch(array, key)`
-- **Description**: Searches for a key in a sorted array. Returns the index if the key is found, otherwise a negative value.
+### 3. **Sort**
+- **Method**: `Arrays.sort(array)`
+- **Description**: Sorts an array in ascending order.
 - **Example**:
   ```java
-  int[] numbers = {1, 3, 5, 7, 9, 11, 13};
-  int index = Arrays.binarySearch(numbers, 5);
-  System.out.println("Index of 5: " + index); // Output: Index of 5: 2
-  ```
+  int[] arrayToSort = {5, 3, 9, 1, 7};
+  Arrays.sort(arrayToSort);
+  System.out.println(Arrays.toString(arrayToSort)); // Output: [1, 3, 5, 7, 9]
 ```
