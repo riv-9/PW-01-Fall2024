@@ -36,16 +36,6 @@ The Shopping List App is a Java-based console application that allows users to o
 - **Interactive Menu**:
   - Offers users a clear set of options to interact with the app, including adding categories, adding items, marking items as bought, and viewing the shopping list.
 
-## How to Run
-1. Compile the Java file:
-   ```bash
-   javac ShoppingListApp.java
-   ```
-2. Run the program:
-   ```bash
-   java ShoppingListApp
-   ```
-
 ## Example Usage
 1. Start the program:
    - A welcome message and a menu are displayed.
