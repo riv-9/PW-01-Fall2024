@@ -26,16 +26,6 @@ This project is a classic implementation of the Hangman game written in Java. Th
   - Contains a list of words used in the game.
   - Loaded by the `WordReader` class to supply words for gameplay.
 
-## How to Run
-1. Compile all Java files using a Java compiler (e.g., `javac`).
-   ```bash
-   javac *.java
-   ```
-2. Run the program using the `Main` class.
-   ```bash
-   java Main
-   ```
-
 ## Features
 - Random word selection from a predefined list.
 - Tracks guessed letters and displays the current state of the word.
