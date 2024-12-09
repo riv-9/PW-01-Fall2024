@@ -39,16 +39,6 @@ The Treasure Map Adventure Game is a text-based Java game that takes players on 
 - **Visited Locations**:
   - Tracked using a `HashSet<String>` to ensure each location is explored.
 
-## How to Run
-1. Compile the Java file:
-   ```bash
-   javac TreasureGame.java
-   ```
-2. Run the program:
-   ```bash
-   java TreasureGame
-   ```
-
 ## Example Gameplay
 1. **Start the Game**:
    - A random location is assigned, e.g., "You are at the Beach."
