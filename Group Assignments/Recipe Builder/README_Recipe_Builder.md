@@ -37,16 +37,6 @@ The Recipe Builder is a simple Java program designed to help users create and ma
 - Display the full recipe in a user-friendly format.
 - Check for missing ingredients from the list.
 
-## How to Run
-1. Compile the Java files:
-   ```bash
-   javac recipebuilderpack/*.java
-   ```
-2. Run the program:
-   ```bash
-   java recipebuilderpack.Main
-   ```
-
 ## Example Usage
 1. Run the program and follow the prompts to:
    - Add ingredients (e.g., "Salt", "Pepper").
